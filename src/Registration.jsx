@@ -4,6 +4,8 @@ import { Form, Input, Button, Upload, Checkbox } from 'antd';
 import { ImgCrop } from 'antd';
 import './Registration.css' ;
 import Link from 'antd/es/typography/Link';
+import axios from 'axios';
+
 
 const Registration = () => {
   const navigate = useNavigate();
